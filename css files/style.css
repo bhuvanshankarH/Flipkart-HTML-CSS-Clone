@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-image: linear-gradient(to right, rgb(160, 160, 208), rgb(198, 198, 211)); */
 
+}
+
+body {
+    background-color: silver;
 }
 
 header {
@@ -14,6 +19,9 @@ header {
 }
 
 .nav {
+    /* background-color: #2874f0; */
+    /* color: white; */
+    /* width: 100%; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -24,6 +32,7 @@ header {
     position: sticky;
 
 }
+
 
 #input {
     width: 400px;
@@ -50,4 +59,71 @@ ul li {
 
 .more {
     font-size: large;
+}
+
+.main-banner {
+    margin-top: 16px;
+    width: 100%;
+
+}
+
+.main-banner-image {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.offer-image {
+    width: 200px;
+}
+
+.top {
+    text-align: center;
+}
+
+.offers {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.buttt {
+    background-color: #2874f0;
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+}
+
+.fashion {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.fashion-images {
+    width: 200px;
+    padding: 10px;
+    /* align-items: center; */
+}
+
+address {
+    width: 400px;
+}
+
+.main-footer {
+    margin-top: 10px;
+    background-image: linear-gradient(to right, violet, yellow);
+
+}
+
+.parent {
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(129, 47, 47);
 }
